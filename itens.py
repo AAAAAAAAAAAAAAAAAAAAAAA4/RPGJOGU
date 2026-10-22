@@ -30,3 +30,5 @@ def listar(conn):
     """Devolve uma LISTA com todos os itens (id, nome, tipo, poder)."""
     # TODO
     raise NotImplementedError
+
+#BOM DIA
