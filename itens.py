@@ -36,3 +36,5 @@ def listar(conn):
     return cursor.fetchall()
     
 #BOM DIA
+#EU ODEIO O FORK
+#EU ODEIO A 
