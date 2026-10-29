@@ -79,7 +79,7 @@ def carregar_exemplos(conn):
     conn.executemany(
         "INSERT INTO personagens (nome, nivel, jogador_id, classe_id) VALUES (?, ?, ?, ?)",
         [("Gork", 5, 1, 1),
-         ("Zéfira", 7, 2, 2),
+         ("Zefira", 7, 2, 2),
          ("Flecha Veloz", 3, 3, 3),
          ("Luna", 4, 1, 4),
          ("Brasa", 2, 4, 2)])

@@ -20,9 +20,9 @@ CONSULTA = """
            jogadores.apelido, classes.nome
     FROM personagens
     JOIN jogadores ON jogadores.id = personagens.jogador_id
+    JOIN classes ON classes.id = personagens.classe_id
 """
-# TODO: acrescente acima a linha
-#       JOIN classes ON classes.id = personagens.classe_id
+
 
 
 def incluir(conn, nome, nivel, jogador_id, classe_id):
